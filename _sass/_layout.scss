@@ -12,11 +12,12 @@
     position: relative;
     @include media-query($on-palm) {
       background-image: url(/images/tetons_small.jpg);
+      min-height: 100px;
     }
 }
 
 .site-title {
-    font-size: 46px;
+    font-size: 56px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -34,7 +35,7 @@
 }
 
 .site-slogan {
-    font-size: 18px;
+    font-size: 26px;
     line-height: 56px;
     letter-spacing: -1px;
     margin-bottom: 0;
@@ -46,7 +47,7 @@
         color: #FFF;
     }
     @include media-query($on-palm) {
-      font-size: 12px;
+      font-size: 16px;
     }
 }
 
@@ -58,7 +59,7 @@
     }
 
     .page-link {
-        color: $text-color;
+        color: #FFF;
         line-height: $base-line-height;
 
         // Gaps between nav items, but not on the first one
@@ -75,6 +76,10 @@
         border: 1px solid $grey-color-light;
         border-radius: 5px;
         text-align: right;
+
+        .page-link {
+          color: $text-color;
+        }
 
         .menu-icon {
             display: block;
@@ -174,6 +179,43 @@
 }
 
 
+.col-wrapper {
+    margin-left: -$spacing-unit / 2;
+    @extend %clearfix;
+}
+
+.col {
+    float: left;
+    margin-bottom: $spacing-unit / 2;
+    padding-left: $spacing-unit / 2;
+}
+
+.col-1 {
+    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
+    width:         calc(30% - (#{$spacing-unit} / 2));
+}
+
+.col-2 {
+    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
+    width:         calc(70% - (#{$spacing-unit} / 2));
+}
+
+@include media-query($on-laptop) {
+    .col-1,
+    .col-2 {
+        width: -webkit-calc(50% - (#{$spacing-unit} / 2));
+        width:         calc(50% - (#{$spacing-unit} / 2));
+    }
+
+}
+
+@include media-query($on-palm) {
+    .col {
+        float: none;
+        width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+        width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+}
 
 /**
  * Page content
