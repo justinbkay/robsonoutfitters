@@ -20,9 +20,8 @@ permalink: /prices/
 | Controlled Hunts | $3,500 per person - 5 day hunt |
 | General Season | $2,500 per person - 5 day hunt |
 | Drop Camps | $1,000 per person - 4 day hunt |
-|||
 
-
+     
 **Bird Hunting**
 $300 per person per day
 
