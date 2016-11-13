@@ -3,7 +3,7 @@ title: Hunt Teton Valley with Robson Outfitters
 email: robsonoutfitters@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Robson Outfitters specializes in quality archery, and guided rifle hunts for trophy deer, elk, bear, grouse, duck and geese based in Eastern Idaho in the iconic Teton Valley.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/" # the subpath of your site, e.g. /blog/
 url: "http://www.robsonoutfitters.com" # the base hostname & protocol for your site
 slogan: "Specializing in Big Game and Wilderness Adventures!"
 
