@@ -36,3 +36,7 @@ $280 per person per day
 $220 per person per day
 
 *Dutch oven dinner available at extra cost
+
+<p style="margin-top: 20px;">
+  <img src="/images/elk_hunt3.jpg" alt="elk kill" />
+</p>

@@ -191,13 +191,13 @@
 }
 
 .col-1 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
+    width:         calc(40% - (#{$spacing-unit} / 2));
 }
 
 .col-2 {
-    width: -webkit-calc(70% - (#{$spacing-unit} / 2));
-    width:         calc(70% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(60% - (#{$spacing-unit} / 2));
+    width:         calc(60% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
