@@ -4,4 +4,4 @@ title: Map
 permalink: /map/
 ---
 
-![alt text]({{ site.baseurl }}images/map.png "Map")
+![alt text]({{ "images/map.png" | absolute_url }} "Map")
