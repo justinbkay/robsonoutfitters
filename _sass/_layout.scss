@@ -68,6 +68,16 @@
         }
     }
 
+    // @include media-query(min-width: 500px;) {
+    @media only screen and (min-width: 481px) {
+        .trigger {
+            background-color: rgba($color: #001275, $alpha: 0.21);
+            padding: 0 25px;
+            width: 90%;
+            border-radius: 25px;
+        }
+    }
+
     @include media-query($on-palm) {
         position: absolute;
         top: 9px;
