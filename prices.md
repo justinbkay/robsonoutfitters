@@ -19,7 +19,7 @@ permalink: /prices/
 | Archery | $5,500 per person - 5 day hunt |
 | Controlled Hunts | $5,500 per person - 5 day hunt |
 | General Season | $5,000 per person - 5 day hunt |
-| Drop Camps | $1,000 per person - 4 day hunt |
+| Drop Camps | $2,000 per person - 4 day hunt |
 
 <p style="margin-top: 20px;">
 <strong>Bird Hunting</strong>
